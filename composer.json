@@ -2,6 +2,7 @@
     "name": "100yuristov/leads-sdk",
     "description": "PHP SDK for the leads service",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Sunsetboy",
