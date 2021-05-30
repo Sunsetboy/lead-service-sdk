@@ -7,12 +7,13 @@ use GuzzleHttp\Client;
 
 class AbstractService
 {
-    private $httpClient;
+    /** @var Client $httpClient */
+    protected $httpClient;
 
     /**
      * @var string Key for data changing requests
      */
-    private $apiKey = '';
+    protected $apiKey = '';
 
     public function __construct(Client $httpClient, string $apiKey = '')
     {
